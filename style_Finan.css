@@ -1,0 +1,63 @@
+body{
+    width:auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.753);
+}
+h1, h2, h3  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    margin: 20px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 35px;
+    
+}
+
+.menu-principal{
+    height: 90px;
+}
+.logo{
+    padding: 15px;   
+    justify-content: space-around;
+}
+.slogan_lcm{
+    width: 140px;
+    text-align: center;
+}
+.slogan_toledo{
+    width: 200px;
+    text-align: center;
+}
+.links{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: space-around;
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+    border-bottom: 2px solid gold;
+   
+}
+div img{
+    width: 150px;
+   
+}
+.financeiro{
+    background-color: rgba(70, 70, 228, 0.747);
+    list-style: none;
+    padding: 15px;   
+    height: 200px;
+}
+.valores{
+    padding-top: 60px;
+}

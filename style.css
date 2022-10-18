@@ -1,0 +1,112 @@
+body{
+    width:auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.753);
+}
+h1, h2, h3  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 35px;
+    
+}
+
+.menu-principal{
+    height: 90px;
+}
+.logo{
+    padding: 15px;   
+    justify-content: space-around;
+}
+.slogan_lcm{
+    width: 140px;
+    text-align: center;
+}
+.slogan_toledo{
+    width: 200px;
+    text-align: center;
+}
+.links{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: space-around;
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+    border-bottom: 2px solid gold;
+   
+}
+.Osso{ 
+    width: 150px; 
+   
+}
+.Foto-duraflex{
+    width: 500px;
+    border-radius: 30px;
+  
+}
+.Introduçao{
+    height: 700px;
+    background-image: url(img/Apresentação1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+}
+.material{
+    border: 20px solid blue;
+    border-radius: 30px;
+}
+.embalagem{
+    width: 300px;
+}
+.manual {
+    width: 300px;
+    border-radius: 30px;
+}
+.produtoras{
+    width: 200px;
+    border-radius: 30px;
+    margin: 20px;
+    display: inline-block;
+    
+}
+video{
+    padding: 55px;
+    padding-bottom: 100px;
+}
+
+form{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+/*Aparição da img logo*/
+.Introduçao{
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-delay: 0,5ms;
+    
+}
+@keyframes fade {
+    from{
+        
+        transform: translateX(-35%);
+    } 
+    to{
+        
+        transform: translateX(0%);
+    }
+}
+/* Estilizando a pagina de pesquisa */
+
