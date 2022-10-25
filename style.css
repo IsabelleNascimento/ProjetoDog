@@ -42,6 +42,10 @@ ul{
     list-style: none;
     justify-content: space-around;
 }
+ol{
+ 
+    list-style: none;
+}
 a{
     color: darkblue;
     text-decoration: none;
@@ -49,7 +53,7 @@ a{
    
 }
 .Osso{ 
-    width: 150px; 
+    width: 500px; 
    
 }
 .Foto-duraflex{
@@ -74,6 +78,10 @@ a{
 }
 .manual {
     width: 300px;
+    border-radius: 30px;
+}
+.vet{
+    width: 400px;
     border-radius: 30px;
 }
 .produtoras{

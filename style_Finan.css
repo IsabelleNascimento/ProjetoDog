@@ -5,10 +5,16 @@ body{
     text-align: center;
     background-color: rgba(245, 245, 220, 0.753);
 }
-h1, h2, h3  {
+h1, h2  {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
     margin: 20px;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+
 }
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
