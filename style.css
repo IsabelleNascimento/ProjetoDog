@@ -69,7 +69,8 @@ a{
     border-radius: 30px;
 }
 .embalagem{
-    width: 300px;
+    width: 350px;
+    padding-inline: 40px;
 }
 .manual {
     width: 300px;
